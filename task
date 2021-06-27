@@ -1,0 +1,29 @@
+function range($start, $end, $increment){
+$array = [];
+$current = start;
+$counter;
+if ($increment == undefined){
+    $counter = 1;
+}
+
+else {
+    $counter = $increment;
+}
+
+if ($increment > 0){
+    while($current <= $end){
+        array.push($current);
+        $current += $counter;
+    }
+}
+  
+else if ($increment < 0){
+    while($current >= $end){
+        array.push($current);
+        $current += $counter;
+        
+    }
+}
+
+return array;
+}
